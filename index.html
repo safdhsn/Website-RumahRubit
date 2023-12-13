@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumah Rubit</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        font-family: "poppins", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f5f2;
+        color: #faf8f8;
+      }
+
+      header {
+        background-color: #048816;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 2em;
+      }
+
+      nav {
+        background-color: #fff017;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 1em;
+      }
+
+      section {
+        padding: 40px;
+      }
+
+      footer {
+        background-color: #048816;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      h1 {
+        color: #fff017;
+      }
+      h2 {
+        color: #048816;
+      }
+      h3 {
+        color: #048816;
+      }
+
+      a {
+        color: #048816;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .menu-item {
+        display: inline-block;
+        margin: 0 20px;
+      }
+
+      .hero-image {
+        background-image: url("your-hero-image.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        text-align: center;
+        color: #354e5e;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .hero-image h2 {
+        font-size: 2.5em;
+        margin-bottom: 0;
+      }
+
+      .hero-image p {
+        font-size: 1.2em;
+        margin-top: 0;
+      }
+
+      .menu-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      .menu-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>RUMAH RUBIT</h1>
+        <p>Nikmati Khasiat Herbal Terbaik di Kota untuk Kesehatan dan Kenikmatan Anda!</p>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+        <div class="menu-item"><a href="#home">Beranda</a></div>
+        <div class="menu-item"><a href="#produk"> Produk </a></div>
+        <div class="menu-item"><a href="#kontak">Kontak</a></div>
+      </div>
+    </nav>
+
+    <section class="hero-image">
+      <div class="container">
+        <h2>Selamat Datang di Website RESMI Rumah Rubit!</h2>
+        <img
+            src="https://images.unsplash.com/photo-1514733670139-4d87a1941d55?q=80&w=1478&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="container img" width="1000" height="400"/>
+      </div>
+    </section>
+
+    <section id="home" class="container">
+      <h2>"Kesehatan Alami Setiap Hari" <br> 
+      </h2>
+      <h3>
+        Nikmati manfaat herbal terbaik kami yang disajikan dengan cinta dan kualitas terbaik untuk kesehatan Anda.
+      </h3>
+    </section>
+
+    <section id="produk" class="container">
+      <h2>Produk Kami</h2>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <img
+            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS7z8lb1IpI3zQhPJMhYgPlB4VInqEzx5Glvgvb5Y2dvyomVL6N"
+            alt="Menu 1"
+          />
+          <h3>Madu Malaika Madu Yaman </h3>
+          <p>Deskripsi menu 1.</p>
+        </li>
+        <li class="menu-item">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRW5RoCgEoSDhTbR8YhJ4EvLoMdneNOcJ2qlke6Qd-hLu47dDxC"
+            alt="Menu 2"
+          />
+          <h3>Kurma Ruthob Libya</h3>
+          <p>Deskripsi menu 2.</p>
+        </li>
+        <li class="menu-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCnQ4g_ixIwzn28aQplJFKrbOgWH_6kc_YNdIyT9snrm6TMw5"
+            alt="Menu 3"
+          />
+          <h3>Madu An Nahl</h3>
+          <p>Deskripsi menu 3.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="kontak" class="container">
+      <h2>Instagram: <a href="https://www.instagram.com/rumahrubit"> @rumahrubit </a> </h2>
+      <p>
+        Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami di
+        <a href="mailto:info@rumahrubit.com">info@rumahrubit.com</a>.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Rumah Rubit. Hak Cipta Dilindungi.</p>
+    </footer>
+  </body>
+</html>
